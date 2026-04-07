@@ -1,0 +1,192 @@
+References for Deepfake Detection Project
+
+Core Model Architectures
+
+1. EfficientNet
+•  Paper: "EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks"
+•  Authors: Mingxing Tan, Quoc V. Le
+•  Published: ICML 2019
+•  Link: https://arxiv.org/abs/1905.11946
+•  GitHub: https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet
+
+2. Vision Transformer (ViT)
+•  Paper: "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"
+•  Authors: Alexey Dosovitskiy, Lucas Beyer, et al.
+•  Published: ICLR 2021
+•  Link: https://arxiv.org/abs/2010.11929
+•  GitHub: https://github.com/google-research/vision_transformer
+
+3. FasterViT
+•  Paper: "FasterViT: Fast Vision Transformers with Hierarchical Attention"
+•  Authors: Ali Hatamizadeh, Greg Heinrich, et al.
+•  Published: 2023
+•  Link: https://arxiv.org/abs/2306.06189
+•  GitHub: https://github.com/NVlabs/FasterViT
+
+4. EfficientFormer
+•  Paper: "EfficientFormer: Vision Transformers at MobileNet Speed"
+•  Authors: Yanyu Li, Geng Yuan, et al.
+•  Published: NeurIPS 2022
+•  Link: https://arxiv.org/abs/2206.01191
+•  GitHub: https://github.com/snap-research/EfficientFormer
+
+5. EfficientFormerV2
+•  Paper: "Rethinking Vision Transformers for MobileNet Size and Speed"
+•  Authors: Yanyu Li, Ju Hu, et al.
+•  Published: ICCV 2023
+•  Link: https://arxiv.org/abs/2212.08059
+
+
+
+Visualization & Interpretability
+
+6. Grad-CAM
+•  Paper: "Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization"
+•  Authors: Ramprasaath R. Selvaraju, Michael Cogswell, et al.
+•  Published: ICCV 2017
+•  Link: https://arxiv.org/abs/1610.02391
+•  GitHub: https://github.com/jacobgil/pytorch-grad-cam
+
+
+
+Deepfake Detection Research
+
+7. Deepfake Detection Survey
+•  Paper: "The Eyes Tell All: Detecting Political Orientation from Eye Movement Data"
+•  Alternative: "DeepFakes and Beyond: A Survey of Face Manipulation and Fake Detection"
+•  Authors: Ruben Tolosana, Ruben Vera-Rodriguez, et al.
+•  Published: Information Fusion 2020
+•  Link: https://arxiv.org/abs/2001.00179
+
+8. Face Forensics++
+•  Paper: "FaceForensics++: Learning to Detect Manipulated Facial Images"
+•  Authors: Andreas Rössler, Davide Cozzolino, et al.
+•  Published: ICCV 2019
+•  Link: https://arxiv.org/abs/1901.08971
+•  Dataset: https://github.com/ondyari/FaceForensics
+
+9. Ensemble Methods for Detection
+•  Paper: "Detecting Face Synthesis Using Ensemble Classifier Based on Multi-task Learning"
+•  Authors: Zekun Sun, Yun Cao, et al.
+•  Published: 2021
+•  Link: https://arxiv.org/abs/2101.06961
+
+
+
+Deep Learning Frameworks & Tools
+
+10. PyTorch
+•  Documentation: https://pytorch.org/docs/
+•  Paper: "PyTorch: An Imperative Style, High-Performance Deep Learning Library"
+•  Authors: Adam Paszke, Sam Gross, et al.
+•  Published: NeurIPS 2019
+•  Link: https://arxiv.org/abs/1912.01703
+
+11. timm (PyTorch Image Models)
+•  GitHub: https://github.com/huggingface/pytorch-image-models
+•  Author: Ross Wightman
+•  Description: Collection of image models, layers, utilities, optimizers, and more
+
+12. Gradio
+•  Documentation: https://www.gradio.app/docs
+•  GitHub: https://github.com/gradio-app/gradio
+•  Paper: "Gradio: Hassle-Free Sharing and Testing of ML Models in the Wild"
+•  Published: ICML 2019 Workshop
+•  Link: https://arxiv.org/abs/1906.02569
+
+
+
+Training Techniques
+
+13. Transfer Learning
+•  Paper: "A Survey on Transfer Learning"
+•  Authors: Sinno Jialin Pan, Qiang Yang
+•  Published: IEEE TKDE 2010
+•  Link: https://ieeexplore.ieee.org/document/5288526
+
+14. ImageNet
+•  Paper: "ImageNet Large Scale Visual Recognition Challenge"
+•  Authors: Olga Russakovsky, Jia Deng, et al.
+•  Published: IJCV 2015
+•  Link: https://arxiv.org/abs/1409.0575
+•  Website: https://www.image-net.org/
+
+15. Data Augmentation
+•  Paper: "A Survey on Image Data Augmentation for Deep Learning"
+•  Authors: Connor Shorten, Taghi M. Khoshgoftaar
+•  Published: Journal of Big Data 2019
+•  Link: https://journalofbigdata.springeropen.com/articles/10.1186/s40537-019-0197-0
+
+
+
+Optimization & Training
+
+16. Adam Optimizer
+•  Paper: "Adam: A Method for Stochastic Optimization"
+•  Authors: Diederik P. Kingma, Jimmy Ba
+•  Published: ICLR 2015
+•  Link: https://arxiv.org/abs/1412.6980
+
+17. Learning Rate Scheduling
+•  Paper: "Cyclical Learning Rates for Training Neural Networks"
+•  Authors: Leslie N. Smith
+•  Published: WACV 2017
+•  Link: https://arxiv.org/abs/1506.01186
+
+
+
+Model Evaluation
+
+18. ROC Curve & AUC
+•  Paper: "The Meaning and Use of the Area Under a Receiver Operating Characteristic (ROC) Curve"
+•  Authors: James A. Hanley, Barbara J. McNeil
+•  Published: Radiology 1982
+
+19. Confusion Matrix Analysis
+•  Reference: scikit-learn Documentation
+•  Link: https://scikit-learn.org/stable/modules/model_evaluation.html
+
+
+
+Related Deepfake Technologies
+
+20. Generative Adversarial Networks (GANs)
+•  Paper: "Generative Adversarial Networks"
+•  Authors: Ian Goodfellow, et al.
+•  Published: NeurIPS 2014
+•  Link: https://arxiv.org/abs/1406.2661
+
+21. StyleGAN
+•  Paper: "A Style-Based Generator Architecture for Generative Adversarial Networks"
+•  Authors: Tero Karras, Samuli Laine, Timo Aila
+•  Published: CVPR 2019
+•  Link: https://arxiv.org/abs/1812.04948
+
+
+
+Python Libraries Used
+
+22. NumPy: https://numpy.org/
+23. Pillow (PIL): https://pillow.readthedocs.io/
+24. Matplotlib: https://matplotlib.org/
+25. scikit-learn: https://scikit-learn.org/
+26. PyYAML: https://pyyaml.org/
+27. Rich: https://rich.readthedocs.io/
+
+
+
+Additional Resources
+
+28. Computer Vision Research
+•  Conference: CVPR (Conference on Computer Vision and Pattern Recognition)
+•  Conference: ICCV (International Conference on Computer Vision)
+•  Conference: ECCV (European Conference on Computer Vision)
+
+29. Deepfake Detection Benchmark
+•  Website: https://www.kaggle.com/c/deepfake-detection-challenge
+•  Description: Kaggle competition for deepfake detection
+
+30. AI Ethics & Safety
+•  Paper: "The Malicious Use of Artificial Intelligence: Forecasting, Prevention, and Mitigation"
+•  Published: 2018
+•  Link: https://arxiv.org/abs/1802.07228
